@@ -20,13 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E5ED56519E5E50100BC06F6 /* Gimbal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gimbal.framework; path = "../../Frameworks/Gimbal.framework"; sourceTree = "<group>"; };
+		7E5ED56519E5E50100BC06F6 /* Gimbal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gimbal.framework; path = ../../Frameworks/Gimbal.framework; sourceTree = "<group>"; };
 		955863261A16967300023C82 /* OptInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptInViewController.h; sourceTree = "<group>"; };
 		955863271A16967300023C82 /* OptInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptInViewController.m; sourceTree = "<group>"; };
 		955863291A1696C900023C82 /* Opt-In.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Opt-In.storyboard"; sourceTree = "<group>"; };
 		955863921A16D25100023C82 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		955863931A16D25100023C82 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		EE7FC85819E49FE80080D23E /* Basic Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basic Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7FC85819E49FE80080D23E /* GiveSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiveSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7FC85C19E49FE80080D23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7FC85D19E49FE80080D23E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE7FC85F19E49FE80080D23E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		EE7FC85919E49FE80080D23E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE7FC85819E49FE80080D23E /* Basic Sample.app */,
+				EE7FC85819E49FE80080D23E /* GiveSafe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE7FC85719E49FE80080D23E /* Basic Sample */ = {
+		EE7FC85719E49FE80080D23E /* GiveSafe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE7FC87B19E49FE80080D23E /* Build configuration list for PBXNativeTarget "Basic Sample" */;
+			buildConfigurationList = EE7FC87B19E49FE80080D23E /* Build configuration list for PBXNativeTarget "GiveSafe" */;
 			buildPhases = (
 				EE7FC85419E49FE80080D23E /* Sources */,
 				EE7FC85519E49FE80080D23E /* Frameworks */,
@@ -120,9 +120,9 @@
 			);
 			dependencies = (
 			);
-			name = "Basic Sample";
+			name = GiveSafe;
 			productName = "Basic Sample";
-			productReference = EE7FC85819E49FE80080D23E /* Basic Sample.app */;
+			productReference = EE7FC85819E49FE80080D23E /* GiveSafe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EE7FC85319E49FE80080D23E /* Build configuration list for PBXProject "Basic Sample" */;
+			buildConfigurationList = EE7FC85319E49FE80080D23E /* Build configuration list for PBXProject "GiveSafe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -158,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE7FC85719E49FE80080D23E /* Basic Sample */,
+				EE7FC85719E49FE80080D23E /* GiveSafe */,
 			);
 		};
 /* End PBXProject section */
@@ -293,7 +293,7 @@
 				INFOPLIST_FILE = "Basic Sample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GiveSafe;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -310,7 +310,7 @@
 				INFOPLIST_FILE = "Basic Sample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GiveSafe;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -318,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE7FC85319E49FE80080D23E /* Build configuration list for PBXProject "Basic Sample" */ = {
+		EE7FC85319E49FE80080D23E /* Build configuration list for PBXProject "GiveSafe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE7FC87919E49FE80080D23E /* Debug */,
@@ -327,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE7FC87B19E49FE80080D23E /* Build configuration list for PBXNativeTarget "Basic Sample" */ = {
+		EE7FC87B19E49FE80080D23E /* Build configuration list for PBXNativeTarget "GiveSafe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE7FC87C19E49FE80080D23E /* Debug */,
