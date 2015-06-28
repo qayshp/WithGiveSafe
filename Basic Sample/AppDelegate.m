@@ -10,7 +10,7 @@
 {
     // To get started with an API key, go to https://manager.gimbal.com/
 #warning Instert your Gimbal Application API key below in order to see this sample application work
-    [Gimbal setAPIKey:@"PUT_YOUR_GIMBAL_API_KEY_HERE" options:nil];
+    [Gimbal setAPIKey:@"4b2e680c-64e1-43b8-bc98-6602a9c31cd5" options:nil];
     
     if ([[NSUserDefaults standardUserDefaults] boolForKey:@"HasBeenPresentedWithOptInScreen"] == NO)
     {
